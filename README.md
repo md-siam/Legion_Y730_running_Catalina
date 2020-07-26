@@ -17,7 +17,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&emsp;② You can download the macOS_Catalina.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it &emsp;&emsp;&nbsp;through VirtualBox and copy "macOS Catalina Installer" into the "Applications" &emsp;&emsp;&ensp;section of macOS.
   <br>&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
   <br>&emsp;④ Turn on "Terminal" and copy & paste the command below:
-  <kbd style="background:#EEEEEE; padding-left:0.5em; padding-right:0.4em;">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume </kbd> 
+  <br><kbd style="background:#EEEEEE;">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume </kbd> 
   <br>&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
   <br>&emsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the &emsp;&emsp;&ensp;VirtualBox. Mount the EFI partition, of the USB drive, using clover configurator, &emsp;&emsp;&ensp;and replace the EFI folder with my EFI folder (unzip EFI.7z before placing it inside EFI partition).
   <br>&emsp;⑦ Done with bootable USB device.
