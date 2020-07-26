@@ -22,7 +22,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 </span></pre>
 <p align="justify" > 
   <br>&nbsp;⑤ "MyVolume" - it is the name of your USB pen drive.
-  <br>&nbsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&emsp;&emsp;&nbsp;&nbsp;before placing it inside EFI partition).
+  <br>&nbsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&emsp;&nbsp;&nbsp;before placing it inside EFI partition).
   <br>&nbsp;⑦ Done with bootable USB device.
 </p>
 
