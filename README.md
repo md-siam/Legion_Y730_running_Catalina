@@ -10,7 +10,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰ You can make a bootable USB from an original Mac machine, or ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
   ✰✰✰✰✰✰✰✰✰ from a macOS installed into VirtualBox (especially the Windows OS users) ✰✰✰✰✰✰✰✰✰✰
   ```
-<img align="right" src="images/catalina.jpg" height="280">
+<img align="right" src="images/catalina.jpg" height="280"></img>
 <p align="justify" > 
   Here I will explain the process of making a bootable USB drive. So be patience:
   <br>&emsp;① Size of the USB drive can be 16GB or more.
