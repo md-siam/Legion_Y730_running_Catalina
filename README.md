@@ -13,14 +13,14 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 <img align="right" src="images/catalina.jpg" height="280">
 <p align="justify" > 
   Here I will explain the process of making a bootable USB drive. So be patience:
-  <br> Size of the USB drive can be 16GB or more.
-  <br> You can download the macOS_Catalina.dmg file from [torrentmac.net](https://www.torrentmac.net/macos-catalina-10-15-6-19g73/), then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
-  <br> Use USB 2.0 pen drive, to avoid error like: 🚫  sign with [dark background](https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg)
-  <br> Turn on "Terminal" and copy & paste the command below:
+  <br>&emsp;&emsp;① Size of the USB drive can be 16GB or more.
+  <br>&emsp;&emsp;② You can download the macOS_Catalina.dmg file from [torrentmac.net](https://www.torrentmac.net/macos-catalina-10-15-6-19g73/), then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
+  <br>&emsp;&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with [dark background](https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg)
+  <br>&emsp;&emsp;④ Turn on "Terminal" and copy & paste the command below:
   <br> ``` sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume ```
-  <br> "MyVolume" - it is the name of your USB pen drive.
-  <br> After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z before placing it inside EFI partition).
-  <br> Done with bootable USB device.
+  <br>&emsp;&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
+  <br>&emsp;&emsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z before placing it inside EFI partition).
+  <br>&emsp;&emsp;⑦ Done with bootable USB device.
 </p>
 
 ## BIOS Settings:
@@ -50,10 +50,10 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 <img align="right" src="images/intel_9560.png" height="340">
 <p align="justify" >
 So far everything is working smoothly, including the <b>Intel Wi-Fi card</b> inside the laptop. With my laptop, there is Intel® Wireless-AC 9560 dual-band Wi-Fi card, and there is no macOS driver for this Intel card. But there is an ongoing project by <b>Open Intel Wireless Factory</b> by which you can use the following Intel Wi-Fi cards: 
-  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;① 3xxx: 3160, 3165, 3168 
-  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;② 7xxx: 7260, 7265 
-  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;③ 9xxx：9260, 9461, 9462, 9560 
-  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;④ 22000：ax200
+  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓐ 3xxx: 3160, 3165, 3168 
+  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓑ 7xxx: 7260, 7265 
+  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓒ 9xxx：9260, 9461, 9462, 9560 
+  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ⓓ 22000：ax200
 <br><br>Since the <i><a href="https://github.com/1hbb/OpenIntelWireless-Factory" target="_blank">Open Intel Wireless Factory</a></i> project is under development, the internet speed in 2.4GHz & in 5.0GHz signal is little bit slow. On the other hand, <b>Bluetooth</b> inside the Intel 9560 card works perfectly fine. To enable Intel 9560 Wi-Fi feature watch the video tutorial from: <a href="https://www.youtube.com/watch?v=j6Fa5r1Ufi0" target="_blank">here</a> and download the latest <b>itlwm.kext</b> & <b>HeliPort</b> app release from: <a href="https://github.com/1hbb/OpenIntelWireless-Factory/releases/tag/2020-07-26" target="_blank">here</a>.
 </p>
 
