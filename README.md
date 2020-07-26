@@ -53,7 +53,7 @@ So far everything is working smoothly, including the <b>Intel Wi-Fi card</b> ins
 
 
 ## Alternative of Intel Wi-Fi card:
-<img align="left" src="images/BCM94352Z.jpg" height="340">
+<img align="left" src="images/BCM94352Z.jpg" height="350">
 <p align="justify" >
 If you want to use the native features of macOS Catalina, like <b>AirDrop</b>, and do not want to wait for the final kext release from <b>Open Intel Wireless Factory</b>, then the <b>Broadcom BCM94352Z</b> Wi-Fi card is the alternative of the Intel® Wireless-AC 9560 Wi-Fi card. But it is expensive if you want to buy it in brand new condition. This card is only manufactured by <b>Lenovo</b>.
 </p>
