@@ -21,7 +21,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 ``` sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume ```
 <p align="justify" > 
   <br>&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
-  <br>&ensp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&ensp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip &emsp;&emsp;&ensp;EFI.7z before placing it inside EFI partition).
+  <br>&ensp;&ensp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&ensp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip &emsp;&emsp;&ensp;EFI.7z before placing it inside EFI partition).
   <br>&emsp;⑦ Done with bootable USB device.
 </p>
 
