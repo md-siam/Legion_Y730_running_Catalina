@@ -18,10 +18,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
   <br>&emsp;④ Turn on "Terminal" and copy & paste the command below:
 </p>
-```
-  ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰ You can make a bootable USB from an original Mac machine, or ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
-  ✰✰✰✰✰✰✰✰✰ from a macOS installed into VirtualBox (especially the Windows OS users) ✰✰✰✰✰✰✰✰✰✰
-  ```
+<code><var>sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume</var></code>
 <p align="justify" > 
   <br>&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
   <br>&ensp;&nbsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&ensp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip &emsp;&emsp;&ensp;EFI.7z before placing it inside EFI partition).
