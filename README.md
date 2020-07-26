@@ -20,7 +20,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 </p>
 <pre>
 <span>
-<var>sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 </span>
 </pre>
 <p align="justify" >
