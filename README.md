@@ -19,7 +19,8 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&emsp;④ Turn on "Terminal" and copy & paste the command below:
 </p>
 <pre>
-<span>sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
+<span>
+<var>sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
 </span>
 </pre>
 <p align="justify" >
