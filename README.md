@@ -6,6 +6,10 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 
 
 ## Make Bootable USB with macOS Catalina or Windows 10:
+```
+  ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰ You can make a bootable USB from an original Mac machine, or ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
+  ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰ from a macOS installed into VirtualBox ✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰✰
+  ```
 <img align="right" src="images/catalina.jpg" height="280"></img>
 - Here I will explain the process of making a bootable USB drive. So be patience:
   - Size of the USB drive can be 16GB or more.
