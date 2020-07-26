@@ -18,7 +18,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
   <br>&emsp;④ Turn on "Terminal" and copy & paste the command below:
 </p>
-<pre><span class="note">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
+<pre>&ensp;&nbsp;<span class="note">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
 </span></pre>
 <p align="justify" > 
   <br>&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
