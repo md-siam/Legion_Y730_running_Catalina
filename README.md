@@ -5,7 +5,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 <p align="center"><img src="images/macOS.png"></p>
 
 
-## Make Bootable USB with macOS Mojave or Windows 10:
+## Make Bootable USB with macOS Catalina or Windows 10:
 <img align="right" src="images/catalina.jpg" height="280"></img>
 - Here I will explain the process of making a bootable USB drive. So be patience:
   - Size of the USB drive can be 16GB or more.
