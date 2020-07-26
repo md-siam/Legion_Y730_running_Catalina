@@ -58,7 +58,7 @@ So far everything is working smoothly, including the <b>Intel Wi-Fi card</b> ins
 If you want to use the native features of macOS, like <b>AirDrop</b>, and do not want to wait for the final release of <b>Open Intel Wireless Factory</b>, then the <b>Broadcom BCM94352Z</b> Wi-Fi card is the alternative of the Intel® Wireless-AC 9560 Wi-Fi card. But it is expensive if you want to buy it in brand new condition. This card is manufactured by <b>Lenovo</b> only.
 </p>
 <p align="justify" >
-Check for Lenovo branding, on the card, before you buy any Wi-Fi card. There DW cards from DELL which will not work, & can damage your macOS installation files. So, only Lenovo branding <b>Broadcom BCM94352Z</b> Wi-Fi card will work in Legion Y730. The Wi-Fi card on your left will work with Apple macOS.
+Check for Lenovo branding, on the card, before you buy any Wi-Fi card. There DW cards from DELL will not work, & can damage your macOS installation files. So, only Lenovo branding <b>Broadcom BCM94352Z</b> Wi-Fi card will work in Legion Y730. The Wi-Fi card on your left will work with Apple macOS.
 </p>
 <p align="justify" >
 After installing the Broadcom BCM94352Z Wi-Fi card you will need some additional <b>kext</b> files from a different source. I do not have those kext files into the EFI folder. Follow the guide given here to enable your <b>Broadcom Wi-Fi card</b>. Guide: <a href="https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/" target="_blank">Broadcom WiFi/Bluetooth</a>.
