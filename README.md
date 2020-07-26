@@ -36,6 +36,32 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   - Boot: [Photo](https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/BIOS_3.jpg)
   - Exit: Save the changes and exit from BIOS [Photo](https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/BIOS_4.jpg)
 
+## After macOS Installation: 
+  - Choose the partition where you install your macOS Catalina, suppose "macOS SSD".
+  - Setup your keyboard.
+  - Copy "Clover Configarator" app to your "Applications" section.
+  - Mount the EFI partition of both USB and "macOS SSD".
+  - Copy the EFI folder from USB to EFI partition of "macOS SSD".
+  - Now enjoy your hackingtosh.
+
+## For Using Wi-Fi:
+<img align="right" src="images/TP-Link%20Archer%20T4U%20AC1300.jpg" height="350">
+<p align="justify" >
+So far everything is working smoothly, except the <b>Wi-Fi card</b> inside the laptop. With my laptop, there is Intel® Wireless-AC 9560 dual-band Wi-Fi card, and there is no macOS driver for this Intel 9560 Wifi card. But the <b>Bluetooth</b> inside the Intel card works perfectly. So, to enable the Wi-Fi connection, I bought a Tp-Link Archer T4U Wi-Fi adapter. A picture of my WiFi card is given on your right. Driver for this Wi-Fi adapter can be downloaded from <a href="https://www.tp-link.com/uk/support/download/archer-t4u/#Driver" target="_blank">here</a>.
+</p>
+
+
+## Alternative of Archer T4U:
+<img align="left" src="images/BCM94352Z.jpg" height="340">
+<p align="justify" >
+If you want to keep everything inside your laptop and do not want a big ugly USB drive always attached to the back of the laptop, then the <b>Broadcom BCM94352Z</b> Wi-Fi card is the alternative of the Tp-Link Archer T4U. But it is expensive if you want to buy in brand new condition. This card is manufactured by <b>Lenovo</b> only.
+</p>
+<p align="justify" >
+Check for Lenovo branding, on the card, before you buy any Wi-Fi card. There DW cards from DELL which will not work, & can damage your macOS installation files. So, only Lenovo branding <b>Broadcom BCM94352Z</b> Wi-Fi card will work in Legion Y730. The Wi-Fi card on your left will work with Apple macOS.
+</p>
+<p align="justify" >
+After installing the Broadcom BCM94352Z Wi-Fi card you will need some additional <b>kext</b> files from a different source. I do not have those kext files into the EFI folder. Follow the guide given here to enable your <b>Broadcom Wi-Fi card</b>. Guide: <a href="https://www.tonymacx86.com/threads/broadcom-wifi-bluetooth-guide.242423/" target="_blank">Broadcom WiFi/Bluetooth</a>.
+</p>
 
 ## Intel® Virtualization Technology (Intel® VT)
 Many applications use Intel Virtualization Technology to work properly, examples like:
@@ -54,3 +80,5 @@ So, after successful macOS installation, enabled "Intel Virtual Technology" from
  - [torrentmac.net](www.torrentmac.net) for full macOS Catalina DMG file [sharing](https://www.torrentmac.net/macos-catalina-10-15-6-19g73/)
  - [xiaoMGitHub](https://github.com/xiaoMGitHub) for providing his [EFI](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh/releases/tag/v3.0.2) folder
  - [ComputerTipsLaiju](https://www.youtube.com/watch?v=57aA8e9YQSg&t=66s) for macOS installation guide
+ - [Jay Wardana](https://www.youtube.com/watch?v=j6Fa5r1Ufi0) for making video on Intel Wi-Fi fix
+ - [1hbb](https://github.com/1hbb/OpenIntelWireless-Factory/releases/tag/2020-07-26) for providing the App & kext for Intel Wi-Fi
