@@ -81,4 +81,4 @@ So, after successful macOS installation, enabled "Intel Virtual Technology" from
  - [xiaoMGitHub](https://github.com/xiaoMGitHub) for providing his [EFI](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Hackintosh/releases/tag/v3.0.2) folder
  - [ComputerTipsLaiju](https://www.youtube.com/watch?v=57aA8e9YQSg&t=66s) for macOS installation guide
  - [Jay Wardana](https://www.youtube.com/watch?v=j6Fa5r1Ufi0) for making video on Intel Wi-Fi fix
- - [1hbb](https://github.com/1hbb/OpenIntelWireless-Factory/releases/tag/2020-07-26) for providing the App & kext for Intel Wi-Fi
+ - [1hbb](https://github.com/1hbb/OpenIntelWireless-Factory/releases/tag/2020-07-26) for providing the HeliPort app & itlwm.kext for Intel 9560 Wi-Fi
