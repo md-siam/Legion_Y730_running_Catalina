@@ -13,14 +13,14 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 <img align="right" src="images/catalina.jpg" height="280">
 <p align="justify" > 
   Here I will explain the process of making a bootable USB drive. So be patience:
-  <br>&emsp;&emsp;① Size of the USB drive can be 16GB or more.
-  <br>&emsp;&emsp;② You can download the macOS_Catalina.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
-  <br>&emsp;&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
-  <br>&emsp;&emsp;④ Turn on "Terminal" and copy & paste the command below:
-  <br> ``` sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume ```
-  <br>&emsp;&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
-  <br>&emsp;&emsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z before placing it inside EFI partition).
-  <br>&emsp;&emsp;⑦ Done with bootable USB device.
+  <br>&emsp;① Size of the USB drive can be 16GB or more.
+  <br>&emsp;② You can download the macOS_Catalina.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
+  <br>&emsp;③ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
+  <br>&emsp;④ Turn on "Terminal" and copy & paste the command below:
+  <br>&emsp; ``` sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume ```
+  <br>&emsp;⑤ "MyVolume" - it is the name of your USB pen drive.
+  <br>&emsp;⑥ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z before placing it inside EFI partition).
+  <br>&emsp;⑦ Done with bootable USB device.
 </p>
 
 ## BIOS Settings:
