@@ -9,7 +9,7 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
 <img align="right" src="images/catalina.jpg" height="280"></img>
 - Here I will explain the process of making a bootable USB drive. So be patience:
   - Size of the USB drive can be 16GB or more.
-  - You can download the macOS.dmg file from [torrentmac.net](https://www.torrentmac.net/macos-catalina-10-15-6-19g73/), then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
+  - You can download the macOS_Catalina.dmg file from [torrentmac.net](https://www.torrentmac.net/macos-catalina-10-15-6-19g73/), then open it through VirtualBox and copy "macOS Catalina Installer" into the "Applications" section of macOS.
   - Use USB 2.0 pen drive, to avoid error like: 🚫  sign with [dark background](https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg)
   - Turn on "Terminal" and copy & paste the command below:
   - ``` sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume ```
