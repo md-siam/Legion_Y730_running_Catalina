@@ -17,14 +17,15 @@ If you are a windows user and require macOS to learn XCode, then you can transfo
   <br>&nbsp;② Install any macOS operating system(Sierra or later) into a <a href="https://www.youtube.com/watch?v=qdR3T2jKucE" target="_blank">VirtualBox</a>.
   <br>&nbsp;③ You can download the macOS_Catalina.dmg file from <a href="https://www.torrentmac.net/macos-catalina-10-15-6-19g73/" target="_blank">torrentmac.net</a>, then open it &emsp;&emsp;through VirtualBox and copy "macOS Catalina Installer" into the "Applications" &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;section of macOS.
   <br>&nbsp;④ Use USB 2.0 pen drive, to avoid error like: 🚫  sign with <a href="https://github.com/md-siam/Hackintosh-Legion-Y730_Y740/blob/master/images/USB_Disconnected.jpg" target="_blank">dark background</a>
-  <br>&nbsp;⑤ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
+  <br>&nbsp;⑤ Open "Disk Utility" and format your USB pendrive according to this configuration: <a href="https://github.com/md-siam/Legion_Y730_running_Catalina/blob/master/images/USB_Formatting.png" target="_blank">Photo</a>
+  <br>&nbsp;⑥ Start "Terminal" from Launchpad>Other, and copy & paste the command below:
 
 <pre><span class="note">sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/<var>MyVolume</var>
 </span></pre>
 <p align="justify" > 
-  <br>&nbsp;⑥ <i>"MyVolume"</i> - it is the name of your USB pen drive.
-  <br>&nbsp;⑦ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&nbsp;&nbsp;&nbsp;before placing it inside EFI partition).
-  <br>&nbsp;⑧ Done with bootable USB device.
+  <br>&nbsp;⑦ <i>"MyVolume"</i> - it is the name of your USB pen drive.
+  <br>&nbsp;⑧ After making a USB bootable device, download "Clover Configurator" inside the VirtualBox. Mount the EFI &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;partition, of the USB drive, using clover configurator, and replace the EFI folder with my EFI folder (unzip EFI.7z &emsp;&nbsp;&nbsp;&nbsp;before placing it inside EFI partition).
+  <br>&nbsp;⑨ Done with bootable USB device.
 </p>
 
 ## BIOS Settings:
